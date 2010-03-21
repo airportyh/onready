@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <title>OnReady Test</title>
+    <script type="text/javascript" src="onready.js"></script>
+    <script type="text/javascript">
+    OnReady(function(){
+        var log = document.getElementById('log')
+        log.innerHTML += 'DOM Ready!'
+    })
+    OnReady(function(){
+        var log = document.getElementById('log')
+        log.innerHTML += 'DOM Ready 2!'
+    })
+    </script>
+  </head>
+  <body>
+    <h1>OnReady Test</h1>
+    <div id="log"></div>
+  </body>
+</html>
