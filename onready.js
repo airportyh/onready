@@ -45,5 +45,3 @@
     }
     window.OnReady = OnReady
 })()
-
-
