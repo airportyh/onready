@@ -9,7 +9,5 @@ Usage:
     
 2. Use:
     
-    `OnReady(function(){
-        alert('DOM is now ready!');
-    })`
+    `OnReady(function(){ alert('DOM is now ready!'); })`
     
